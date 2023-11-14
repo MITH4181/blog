@@ -1,0 +1,13 @@
+<h1>Calendar Events</h1>
+
+<ul>
+  <% @calendar_events.each do |event| %>
+    <li>
+
+      <%= link_to event.title, calendar_event_path(event) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'New Event', new_calendar_event_path, class: 'btn btn-primary' %>
+<%= link_to 'Back to Calendar', calendar_events_path, class: 'btn btn-secondary' %>

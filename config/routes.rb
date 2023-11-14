@@ -1,7 +1,12 @@
-Rails.application.routes.draw do
-  root "articles#index"
+# config/routes.rb
 
-  resources :articles do
-    resources :comments
+Rails.application.routes.draw do
+    root "articles#index"
+  
+    resources :articles do
+      resources :comments
+    end
+  
+    get 'calendar_events/index'
+    resources :calendar_events
   end
-end

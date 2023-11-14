@@ -1,5 +1,8 @@
 <h1>Assignment 4</h1>
 
+
+<%= link_to 'View Calendar', calendar_events_path, class: 'btn btn-primary' %>
+
 <ul>
   <% @articles.each do |article| %>
     <li>
@@ -8,4 +11,7 @@
   <% end %>
 </ul>
 
+
+
 <%= link_to "New Article", new_article_path %>
+
