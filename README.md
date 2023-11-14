@@ -5,6 +5,7 @@ CRUD functionality of the website which in that case was an article editor.
 My additions
 
 I added a new feature, which is a calendar which is displayed upon clicking the view calendar button.
+I implemented this after some research, it is part of a javascript library called fullcalendar.
 
 Additionally, I added a feature of the calendar which is the new events page that 
 takes text as an input and displays it to the user. 
