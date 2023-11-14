@@ -17,9 +17,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     $('#calendar').fullCalendar({
       events: [
-        // You can add your calendar events here
-        // Format: { title: 'Event Title', start: '2023-11-15T10:00:00', end: '2023-11-15T12:00:00' }
-        // Add events dynamically using Ruby in your controller
+
         <% @calendar_events.each do |event| %>
           {
             title: '<%= event.title %>',
