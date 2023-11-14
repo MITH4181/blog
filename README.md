@@ -1,29 +1,17 @@
-<<<<<<< HEAD
-# README
+This is the assignment 4 of the web5201 course.
+The tutorial given on the opentech website for the setup of the initial
+CRUD functionality of the website which in that case was an article editor.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My additions
 
-Things you may want to cover:
+I added a new feature, which is a calendar which is displayed upon clicking the view calendar button.
+Additionally, I added a feature of the calendar which is the new events page that 
+takes text as an input and displays it to the user.
 
-* Ruby version
+Testing
+The calendar does render with no bugs and is clickable while being functional.
+The new events button works and it brings the user to the new events page where he is
+subjected to filling a form.Upon filling it, the text was supposed to be shown to the user, similar
+to the articles CRUD app, unfortunately its not showing up the text and I cannot seem to be able to solve the issue.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# blog
-This the the ruby on rails website having CRUD features
->>>>>>> 4e4c6246699c203845c7799b7fea73f21075a48d
